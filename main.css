@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
+.logopic {
+    width: 90%;
+}
+
+
+.head-image {
+    background-image: url("backgroung.jpg");
+    background-color: #cccccc;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    margin: 5%;
+    float: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12%;
+    height: 19vh;
+}
+
+.picture {
+    float: right;
+    background-position: right;
+    text-align: right ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: circle();
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 42%;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main {
+    box-sizing: border-box;
+}
+
+
+.talking {
+    width: 100%;
+    float: right;
+    height: 570px;
+    background-color: #0f695a;
+}
+
+
+.talking2 {
+    width: 100%;
+    float: right;
+    height: 570px;
+    background-color: rebeccapurple;
+
+}
+
+.talking3 {
+    width: 100%;
+    float: right;
+    height: 570px;
+    background-color: #cb0c2a
+}
+
+.textInfo {
+    margin-left: 10%;
+    width: 80%;
+    font-size: 120%;
+}
+
+.textName {
+    font-size: 45px;
+}
